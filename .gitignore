@@ -1,3 +1,6 @@
+# the test directory
+tests/
+
 # phpstorm project directory
 .idea/
 
