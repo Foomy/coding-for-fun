@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/**
+ * Here are the styles for non-reusable but self-contained
+ * Elements. (e.g. header, footer, sidebar, etc.)
+ *
+ * Table of contents:
+ * 1. Sidebar
+ * 2. Footer
+ *
+ */
+
+/** 1. Sidebar */
+#sidebar h2 {
+	font-family: 'C64 User Mono', monospace;
+	font-size: 0.66rem;
+	white-space: pre;
+}
+
+.miniAbout {
+	text-align: justify;
+}
+
+
+/** 2. Footer */
+.footerLinks a {
+	color: white;
+}
+
+.footerLinks a.backRoom {
+	display: table;
+	float: right;
+}
+
+	.backRoom span {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.footerLinks .fontIcon:before {
+		font-size: 16px;
+	}
+
+	.footerLinks .flText {
+		padding: 0 0 0 5px;
+	}
+
+.footerLinks a:hover {
+
+}

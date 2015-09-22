@@ -1,0 +1,13 @@
+/*
+Theme Name:  Coding For Fun
+Theme URI:   http://www.coding-for-fun.de
+Description: Default template for my coding for fun blog.
+Author:      Sascha Schneider
+Author URI:  http://www.sirfoomy.de
+*/
+
+@import url('/wp-content/themes/coding-for-fun/css/fonts.css');
+@import url('/wp-content/themes/coding-for-fun/css/layout.css');
+@import url('/wp-content/themes/coding-for-fun/css/common.css');
+@import url('/wp-content/themes/coding-for-fun/css/main.css');
+@import url('/wp-content/themes/coding-for-fun/css/elements.css');

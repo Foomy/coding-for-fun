@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/**
+ * In this file the used fonts were imported and mapped.
+ *
+ * Table of contents:
+ *
+ * 1. C64 Fonts
+ * 2. IcoMoon-Free
+ */
+
+/* 1. C64 Fonts */
+@font-face {
+	font-family: 'C64 User';
+	src: url('../fonts/C64_TrueType_v1.0-STYLE/C64_User_v1.0-STYLE.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'C64 User Mono';
+	src: url('../fonts/C64_TrueType_v1.0-STYLE/C64_User_Mono_v1.0-STYLE.woff') format('woff');
+}
+
+/* 2. IcoMoon-Free */
+@font-face {
+	font-family: 'IcoMoon-Free';
+	src: url('../fonts/icomoon/icomoon.woff') format('woff');
+}
+
+[data-icon]:before {
+	font-family: IcoMoon-Free;
+	content: attr(data-icon);
+	speak: none;
+}

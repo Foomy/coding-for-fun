@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/**
+ * These style are for reusable elements, such as
+ * lists or self-contained blocks.
+ *
+ * Table of contents:
+ * 1. Speech/think bubbles
+ *
+ */
+
+/* 1. Speech/think bubbles */
+blockquote.speech-bubble {
+
+}
+
+blockquote.think-bubble {
+
+}
