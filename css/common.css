@@ -17,79 +17,72 @@
  */
 
 
-
 /** 1. Lists */
-
 ul, ol {
-	margin: 10px 50px;
+  margin: 10px 50px;
 }
 
-	li  {
-		margin: 0 0 5px 0;
-	}
+li {
+  margin: 0 0 5px 0;
+}
+
 
 /** 2. Horizontal rules */
-
 hr {
-	width: 90%;
-	color: orange;
+  width: 90%;
+  color: orange;
 }
-
 
 
 /** 3. Paragraphs */
-
 p {
-	margin: 0 0 0.75rem 0;
+  margin: 0 0 0.75rem 0;
 }
 
 .bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 .small {
-	font-size: 0.8em;
-	font-weight: normal;
+  font-size: 0.8em;
+  font-weight: normal;
 }
 
 .console {
-	font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace;
 }
 
-blockquote {
-	margin-left: 20px;
+blockquote.default {
+  margin-left: 20px;
 }
 
 .pre {
-	white-space: pre;
+  white-space: pre;
 }
 
 .noMarginBottom {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
-
 
 
 /** 4. Links */
-
 a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #121943;
+  text-decoration: none;
+  font-weight: bold;
+  color: #121943;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-	color: #121943;
+  color: #121943;
 }
-
 
 
 /** 5. Headlines */
@@ -97,106 +90,111 @@ a:visited {
 /** 5.1 Simple headlines */
 
 h1 {
-	font-size: 18px;
-	margin: 15px 0 18px 0;
+  font-size: 18px;
+  margin: 15px 0 18px 0;
 }
 
 h2 {
-	font-size: 16px;
-	margin: 15px 0 16px 0;
+  font-size: 16px;
+  margin: 15px 0 16px 0;
 }
 
 h3 {
-	font-size: 14px;
-	margin: 15px 0 15px 0;
+  font-size: 14px;
+  margin: 15px 0 15px 0;
 }
 
 h4 {
-	font-size: 13px;
-	margin: 15px 0 10px 0;
+  font-size: 13px;
+  margin: 15px 0 10px 0;
 }
 
 h5 {
-	font-size: 12px;
-	margin: 15px 0 10px 0;
+  font-size: 12px;
+  margin: 15px 0 10px 0;
 }
 
 
 /** 6. Messageboxes */
-
 .msgBoxError {
-	background: #fbb19b;
-	border: #dc4c42;
-	padding: 5px 10px;
-	color: black;
+  background: #fbb19b;
+  border: #dc4c42;
+  padding: 5px 10px;
+  color: black;
 }
 
 .msgBoxWarning {
-	background: #fbffb3;
-	border: #c4b70d;
-	padding: 5px 10px;
-	color: black;
+  background: #fbffb3;
+  border: #c4b70d;
+  padding: 5px 10px;
+  color: black;
 }
 
 .msgBoxInfo {
-	background: #ddeef9;
-	border: #8aafc4;
-	padding: 5px 10px;
-	color: black;
+  background: #ddeef9;
+  border: #8aafc4;
+  padding: 5px 10px;
+  color: black;
 }
 
 .msgBoxOk {
-	background: #cdeaca;
-	border: #58B548;
-	padding: 5px 10px;
-	color: black;
+  background: #cdeaca;
+  border: #58B548;
+  padding: 5px 10px;
+  color: black;
 }
 
 .msgBoxNotice {
-	background: #f6f7fa;
-	border: #c2cbcf;
-	padding: 5px 10px;
-	color: black;
+  background: #f6f7fa;
+  border: #c2cbcf;
+  padding: 5px 10px;
+  color: black;
 }
 
 code, .code {
-	background: #eee;
-	border:	#aaa;
-	padding: 5px 10px;
-	font-family: courier, 'courier new', monospace;
-	color: black;
+  background: #eee;
+  border: #aaa;
+  padding: 5px 10px;
+  font-family: courier, 'courier new', monospace;
+  color: black;
 }
 
 
 /** 7. Alignment & Visibility */
-
 .hide {
-	display: none;
+  display: none;
 }
 
 .invisible {
-	visibility: hidden;
+  visibility: hidden;
 }
 
-.center {
-	text-align: center;
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.left {
+  float: left;
 }
 
 .right {
-	text-align: right;
+  float: right;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
-
 
 /** 8. Special formatting */
 
 .c64User {
-	font-family: 'C64 User', sans-serif !important;
+  font-family: 'C64 User', sans-serif !important;
 }
 
 .c64UserMono {
-	font-family: 'C64 User Mono', monospace;
+  font-family: 'C64 User Mono', monospace;
 }
