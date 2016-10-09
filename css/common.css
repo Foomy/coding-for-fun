@@ -57,7 +57,8 @@ p {
 }
 
 blockquote.default {
-  margin-left: 20px;
+  padding: 0 20px 10px 20px;
+  text-align: justify;
 }
 
 .pre {
