@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="main">
+<div id="content">
 	<?php if (have_posts()): ?>
 		<?php while (have_posts()): the_post(); ?>
 			<div class="entry">
@@ -23,7 +23,7 @@
 	<?php endif; ?>
 </div><!-- main -->
 
-<div id="sidebar">
+<aside>
 	<?php get_sidebar(); ?>
-</div><!-- sidebar -->
+</aside><!-- sidebar -->
 <?php get_footer(); ?>

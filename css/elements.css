@@ -124,3 +124,8 @@ blockquote.blue:before {
 blockquote.think-bubble.blue:after {
   background: #075698;
 }
+
+blockquote.speech-bubble+p,
+blockquote.think-bubble+p {
+  clear: both;
+}

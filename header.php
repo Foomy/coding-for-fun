@@ -12,4 +12,4 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="header"></div><!-- header -->
+		<header></header>
