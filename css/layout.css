@@ -17,8 +17,8 @@ body {
 }
 
 #wrapper {
-  width: 950px;
-  margin: auto;
+  width: 1000px;
+  margin: 10px auto;
   text-align: left;
   background: #fff;
 }
@@ -26,7 +26,7 @@ body {
 header {
   background: url('../images/header.png') no-repeat;
   border-bottom: 1px solid #ccc;
-  height: 290px;
+  height: 200px;
 }
 
 #content {

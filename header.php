@@ -13,3 +13,11 @@
 <body>
 	<div id="wrapper">
 		<header></header>
+		<nav id="main-navigation">
+			<ul>
+				<li><a href="/">Startseite</a></li>
+				<li><a href="/impressum/">Impressum</a></li>
+				<li><a href="/datenschutzerklaerung/">Datenschutzerklärung</a></li>
+			</ul>
+			<div class="clear"></div>
+		</nav>

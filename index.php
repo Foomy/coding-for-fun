@@ -3,7 +3,7 @@
 	<?php if (have_posts()): ?>
 		<?php while (have_posts()): the_post(); ?>
 			<div class="entry">
-				<h1 class="c64User noMarginBottom">
+				<h1 class="noMarginBottom">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 				</h1>
 				<p class="small">

@@ -5,12 +5,36 @@
  * Elements. (e.g. header, footer, sidebar, etc.)
  *
  * Table of contents:
- * 1. Sidebar
- * 2. Footer
+ *   1. Navigation
+ *   2. Sidebar
+ *   3. Footer
  *
  */
 
-/** 1. Sidebar */
+
+/** 1. NAvigation */
+/** 1.1 Main Nav */
+
+#main-navigation {
+	border: solid 1px transparent;
+	border-radius: 7px;
+	margin: 10px;
+}
+
+	#main-navigation ul {
+		list-style-type: none;
+	}
+
+		#main-navigation ul li {
+			float: left;
+			margin: 0 0 10px 10px;
+		}
+
+    #main-navigation ul li:first-child {
+	    margin-left: 0;
+    }
+
+/** 2. Sidebar */
 #sidebar h2 {
 	font-family: 'Consolas', monospace;
 	/*font-size: 1.5rem;*/
@@ -22,7 +46,7 @@
 }
 
 
-/** 2. Footer */
+/** 3. Footer */
 .footerLinks a {
 	color: white;
 }
